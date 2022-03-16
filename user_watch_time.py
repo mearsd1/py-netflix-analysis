@@ -22,3 +22,9 @@ df = df.reset_index()
 
 # convert Duration from object to timedelta
 df['Duration'] = pd.to_timedelta(df['Duration'])
+
+# group and sum profile watch time
+df_groupby_profile = df.groupby(['Profile Name'], as_index=False)['Duration'].sum()
+
+# rounds to days
+df_groupby_profile['Duration'] = df_groupby_profile['Duration'].dt.days
