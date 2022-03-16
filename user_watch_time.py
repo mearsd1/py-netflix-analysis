@@ -28,3 +28,9 @@ df_groupby_profile = df.groupby(['Profile Name'], as_index=False)['Duration'].su
 
 # rounds to days
 df_groupby_profile['Duration'] = df_groupby_profile['Duration'].dt.days
+
+# convert Duration from timedelta to numeric for graphing
+df_groupby_profile['Duration'] = pd.to_numeric(df_groupby_profile['Duration'])
+
+# create bar graph of each Profile's total Duration(watch time)
+df_groupby_profile.plot.bar(x = 'Profile Name', y = 'Duration', color = 'red')
