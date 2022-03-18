@@ -36,9 +36,8 @@
    -The program uses matplotlib to visualize data.
     
 ## Special Instructions
+    -Using your own Netflix Data:
 
-Using your own Netflix Data:
+    To access your Netflix account data you can issue a request using the following link: https://www.netflix.com/account/getmyinfo
 
-To access your Netflix account data you can issue a request using the following link: https://www.netflix.com/account/getmyinfo
-
-Request can take up to 30 days to be processed. Once you have received your Netflix data, you can access your viewing_activity.csv, which will be read by the program, inside the content_interaction directory. You will need to update the line 7 of the profile_watch_time.py file to the title of your CSV file. 'df = pd.read_csv('name_of_your_file.csv')'
+    Request can take up to 30 days to be processed. Once you have received your Netflix data, you can access your viewing_activity.csv, which will be read by the program, inside the content_interaction directory. You will need to update the line 7 of the profile_watch_time.py file to the title of your CSV file. 'df = pd.read_csv('name_of_your_file.csv')'
