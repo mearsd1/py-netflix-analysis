@@ -2,9 +2,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Import data and create data frame.
+# If you are using your own Netlix data, replace the .csv below.
 df = pd.read_csv('viewing-activity-data.csv')
 
-# Remove unnecessary coulumns.
+# Remove unnecessary columns.
 df = df.drop(['Attributes', 'Supplemental Video Type', 'Device Type',
               'Bookmark', 'Latest Bookmark', 'Country'],axis=1)
 
