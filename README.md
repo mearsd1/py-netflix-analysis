@@ -15,7 +15,7 @@ To view the raw data, please reference the `viewing-activity-data.csv`.
 2. ### Setup a virtual environment with venv
    Create the venv: `python -m venv venv` 
    
-   Activate the venv: `source venv/bin/activate`
+   Activate the venv per your terminal instructions.
 
 3. ### Install requirements
     The following packages are required to run the program:
