@@ -1,7 +1,7 @@
 # Netflix Profile Watch Time Project (CodeKY)
 ## Description
 
-The Netflix profile watch time program reads a user's Netflix account data and calculates the total watch time of each profile. The program outputs a bar graph, as a png file, that visualizes each profile's total watch time.
+The Netflix profile watch time program reads a user's Netflix account data and calculates the total watch time of each profile. The program outputs a bar graph, as a png file, that visualizes each profile's total watch time. For more details on how the program works, please read the comments in the `profile_watch_time.py` file.
 
 ## Setup
 1. ### Install python
@@ -13,22 +13,34 @@ The Netflix profile watch time program reads a user's Netflix account data and c
    Activate the venv: `source venv/bin/activate`
 
 3. ### Install requirements
+    The following packages are required to run the program:
+        -pandas
+        -matplotlib
+
    Run the following command to install the project’s required libraries:
     
     `python -m pip install -r requirements.txt`
 
+4. ### Running the program
+    Launch your terminal and enter the path to the `py-netflix-analysis` directory.
+    From the command line, run `python profile_watch_time.py`
+
+## Description of Data
+The data used in this project consists of my family Netflix's viewing activity. I accessed the data by issuing a personal data request to Netflix.
+To view the raw data, please reference the `viewing-activity-data.csv`.
+
 ## Project Requirement Features
-1. ### Category 1: Python Programming Basics:
+1. ### Category 1: Python Programming Basics
     -Create and call at least three functions or methods.
     -Calculate and display data.
 
-2. ### Category 2: Utilize External Data:
+2. ### Category 2: Utilize External Data
     -Read data from an external CSV file.
 
-3. ### Category 3: Data Display:
+3. ### Category 3: Data Display
    -Visualize data in a bar graph.
     
-4. ### Category 4: Best Practices:
+4. ### Category 4: Best Practices
    -The program utilizes a venv and requirements.txt.
 
 5. ### Stretch Features:
