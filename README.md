@@ -55,5 +55,6 @@ To access your Netflix account data you can issue a request using the following 
 
 Request can take up to 30 days to be processed. Once you have received your Netflix data, you can access your viewing_activity.csv, which will be read by the program, inside the content_interaction directory.
 
-You will need to update the line 7 of the profile_watch_time.py file to the title of your CSV file.
+To use your own Netflix data, update line 7 of the profile_watch_time.py file to the title of your CSV file.
+
 `df = pd.read_csv('name_of_your_file.csv')`
