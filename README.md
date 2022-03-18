@@ -1,7 +1,12 @@
 # Netflix Profile Watch Time Project (CodeKY)
-## Description
+## Project Description
 
 The Netflix profile watch time program reads a user's Netflix account data and calculates the total watch time of each profile. The program outputs a bar graph, as a png file, that visualizes each profile's total watch time. For more details on how the program works, please read the comments in the `profile_watch_time.py` file.
+
+## Description of Data
+
+The data used in this project consists of my family Netflix's viewing activity. I accessed the data by issuing a personal data request to Netflix.
+To view the raw data, please reference the `viewing-activity-data.csv`.
 
 ## Setup
 1. ### Install python
@@ -24,10 +29,6 @@ The Netflix profile watch time program reads a user's Netflix account data and c
 4. ### Running the program
     Launch your terminal and enter the path to the `py-netflix-analysis` directory.
     From the command line, run `python profile_watch_time.py`
-
-## Description of Data
-The data used in this project consists of my family Netflix's viewing activity. I accessed the data by issuing a personal data request to Netflix.
-To view the raw data, please reference the `viewing-activity-data.csv`.
 
 ## Project Requirement Features
 1. ### Category 1: Python Programming Basics
