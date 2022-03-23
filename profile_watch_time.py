@@ -24,12 +24,10 @@ df_groupby_profile['Duration'] = df_groupby_profile['Duration'].dt.days
 df_groupby_profile['Duration'] = pd.to_numeric(
     df_groupby_profile['Duration'])
 
-'''
-Retrieves the current date and calculates how many days have passed since
-the Netflix data was requested. The variable is then converted to a
-string and formatted to include only days.
-'''
+# Retrieves today's date and calculates how many days have passed since the Netflix data was received.
 days_removed = dt.date.today() - dt.date(2022, 2, 21)
+
+# Converts days_removed to a string and formats it to include only days.
 days_removed = str(days_removed.days)
 
 # Create bar graph of each profile's summed 'Duration' using plt.bar().
