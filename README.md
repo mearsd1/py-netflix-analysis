@@ -21,6 +21,7 @@ To view the raw data, please reference the `viewing-activity-data.csv`.
     The following packages are required to run the program:
         -pandas
         -matplotlib
+        -datetime
 
    Run the following command to install the project’s required libraries:
     
