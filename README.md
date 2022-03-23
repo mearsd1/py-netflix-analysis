@@ -1,11 +1,11 @@
 # Netflix Profile Watch Time Project (CodeKY)
 ## Project Description
 
-The Netflix profile watch time program reads a user's Netflix account data and calculates the total watch time of each profile. The program outputs a bar graph, as a png file, that visualizes each profile's total watch time. For more details on how the program works, please read the comments in the `profile_watch_time.py` file.
+The Netflix profile watch time program reads a user's Netflix account data and calculates the total watch time of each profile. The program outputs a bar graph, that visualizes each profile's total watch time. For more details on how the program works, please read the comments in the `profile_watch_time.py` file.
 
 ## Description of Data
 
-The data used in this project consists of my family Netflix's viewing activity. I accessed the data by issuing a personal data request to Netflix.
+The data used in this project consists of my family Netflix's viewing activity. I accessed the data by issuing a personal data request to Netflix. The program also uses the current date to calculate how many days have passed since the Netflix's data was received.
 To view the raw data, please reference the `viewing-activity-data.csv`.
 
 ## Setup
@@ -33,21 +33,25 @@ To view the raw data, please reference the `viewing-activity-data.csv`.
 
 ## Project Requirement Features
 1. ### Category 1: Python Programming Basics
-    -Create and call at least three functions or methods.
-    -Calculate and display data.
+    -Calculate and display data based on an external factor.
+        -Line 28 retrieves today's date and calculates how many days have passed since the Netflix data was received. The amount of days passed is displayed in the bar graph.
 
 2. ### Category 2: Utilize External Data
     -Read data from an external CSV file.
+        -Line 7 imports data from a CSV file and creates a data frame.
 
 3. ### Category 3: Data Display
    -Visualize data in a bar graph.
+        -Lines 34 - 54 create a bar graph that visualizes the Netflix Profiles Total Watch Time.
     
 4. ### Category 4: Best Practices
    -The program utilizes a venv and requirements.txt.
 
 5. ### Stretch Features:
    -The program uses pandas to perform data analysis.
+        -Line 1 imports pandas.
    -The program uses matplotlib to visualize data.
+        -Line 2 imports matplotlib.
     
 ## Special Instructions
 Using your own Netflix Data:
