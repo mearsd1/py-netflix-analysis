@@ -42,7 +42,7 @@ To view the raw data, please reference the `viewing-activity-data.csv`.
 
 3. ### Category 3: Data Display
    -Visualize data in a bar graph.
-        -Lines 34 - 54 create a bar graph that visualizes the Netflix Profiles Total Watch Time.
+        -Lines 34-54 create a bar graph that visualizes the Netflix Profiles Total Watch Time.
     
 4. ### Category 4: Best Practices
    -The program utilizes a venv and requirements.txt.
