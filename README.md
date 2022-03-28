@@ -33,25 +33,20 @@ To view the raw data, please reference the `viewing-activity-data.csv`.
 
 ## Project Requirement Features
 1. ### Category 1: Python Programming Basics
-    -Calculate and display data based on an external factor.
-        -Line 28 retrieves today's date and calculates how many days have passed since the Netflix data was received. The amount of days passed is displayed in the bar graph.
+    -Calculate and display data based on an external factor. Line 28 retrieves today's date and calculates how many days have passed since the Netflix data was received. The amount of days passed is displayed in the bar graph.
 
 2. ### Category 2: Utilize External Data
-    -Read data from an external CSV file.
-        -Line 7 imports data from a CSV file and creates a data frame.
+    -Read data from an external CSV file. Line 7 imports data from a CSV file and creates a data frame.
 
 3. ### Category 3: Data Display
-   -Visualize data in a bar graph.
-        -Lines 34-54 create a bar graph that visualizes the Netflix Profiles Total Watch Time.
+   -Visualize data in a bar graph. Lines 34-54 create a bar graph that visualizes the Netflix Profiles Total Watch Time.
     
 4. ### Category 4: Best Practices
    -The program utilizes a venv and requirements.txt.
 
 5. ### Stretch Features:
-   -The program uses pandas to perform data analysis.
-        -Line 1 imports pandas.
-   -The program uses matplotlib to visualize data.
-        -Line 2 imports matplotlib.
+   -The program uses pandas to perform data analysis. Line 1 imports pandas.
+   -The program uses matplotlib to visualize data. Line 2 imports matplotlib.
     
 ## Special Instructions
 Using your own Netflix Data:
